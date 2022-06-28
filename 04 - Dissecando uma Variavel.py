@@ -52,4 +52,4 @@ if e.istitle():
 else:
     print('> NÃO está capitalizada.')
 print()
-print('Obrigado por usar este programa! Deus te abençoe!')
+print('Obrigado por usar este programa! Deus te abençoe e te guarde!')
