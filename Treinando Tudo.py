@@ -1,5 +1,7 @@
-exemplo = input('Digite qualquer coisa nessa bagaça: ')
-if exemplo.isalnum():
-    print('Sim')
-else:
-    print('Não')
+L = [10, 20, 25, 30]
+def soma(L):
+    total = 0
+    for enumerate in L:
+        total += enumerate
+    return total
+print(soma(L))
