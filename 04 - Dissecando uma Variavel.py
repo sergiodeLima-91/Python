@@ -9,8 +9,8 @@ print()
 e = input('Digite um número inteiro qualquer: ') # Se eu não definir qual é o tipo primitivo da variável, o python estabele
  # que ela será do tipo string, independente do que seja inserido.
 loading = ['Analisando...','Por favor, aguarde.','Mate kudasay' ]
-random = choice(loading)
-print(random)
+escolha = choice(loading)
+print(escolha)
 sleep(3)
 print('-' * 20)
 print('\033[36mD I S S E C A Ç Ã O\033[m')
